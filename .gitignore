@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Example codes
+Assembly-CSharp 1.4/
+FluffyManager/
+
+# Harmony dll
+0Harmony.dll
+
 # User-specific files
 *.rsuser
 *.suo
