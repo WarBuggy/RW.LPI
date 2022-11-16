@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<LGRF_Letter_Label>Genes Regrow Finished</LGRF_Letter_Label>
+	<LGRF_Letter_Text>{0}'s genes have finished regrowing.</LGRF_Letter_Text>
+
+	<LGRF_Option_Mod_Name>Letter on Genes Regrow finished</LGRF_Option_Mod_Name>
+	<LGRF_Option>On genes regrow finished:</LGRF_Option>
+	<LGRF_Option_Message>Show original message (upper left corner of the screen)</LGRF_Option_Message>
+	<LGRF_Option_Letter>Send letter</LGRF_Option_Letter>
+	<LGRF_Option_Pause>Pause the game</LGRF_Option_Pause>
+	<LGRF_Option_Debug>Log debug messages</LGRF_Option_Debug>
+</LanguageData>

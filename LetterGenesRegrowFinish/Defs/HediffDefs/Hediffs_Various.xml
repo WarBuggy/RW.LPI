@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HediffDef>
+        <defName>XenogermReplicating</defName>
+        <label>genes regrowing</label>
+        <description>This person's genetic material is regrowing. This process doesn't have any direct health effects. However, extracting their genes while they are regrowing will kill them.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>1</initialSeverity>
+        <stages>
+        <li>
+        </li>
+        <li>
+            <minSeverity>2</minSeverity>
+            <lifeThreatening>true</lifeThreatening>
+            <capMods>
+            <li>
+                <capacity>Consciousness</capacity>
+                <setMax>0</setMax>
+            </li>
+            </capMods>
+        </li>
+        </stages>
+        <comps>
+        <li Class="LetterGenesRegrowFinish.HediffCompProperties_DisappearsWithLetter">
+            <disappearsAfterTicks>6000000~8400000</disappearsAfterTicks><!-- 100~140 days -->
+            <showRemainingTime>true</showRemainingTime>
+            <canUseDecimalsShortForm>true</canUseDecimalsShortForm>
+            <messageOnDisappear>{PAWN_nameDef}'s genes have finished regrowing.</messageOnDisappear>
+        </li>
+        </comps>
+    </HediffDef>
+</Defs>

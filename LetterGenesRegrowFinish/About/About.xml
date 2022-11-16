@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>Buggy.RimWorld.LetterGenesRegrowFinish</packageId>
+	<name>Letter Genes Regrow Finished</name>
+	<author>Buggy</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>	
+	<modDependencies>
+		<li>
+		<packageId>ludeon.rimworld.biotech</packageId>
+		<displayName>Biotech</displayName>
+		</li>
+	</modDependencies>   
+	<description>Send a letter when someone's genes have finished regrowing. It might conflict with any mod that modify XenogermReplicating def in HeDiffs_Various.xml file.
+
+It can be safely added mid-game.
+
+Options are:
+[list]
+[*]Show original message (uppper left corner of the screen).
+[*]Send letter.
+[*]Pause the game.
+[/list]
+
+If you like this mod, maybe check out my other one:
+Permanent Injury Letter https://steamcommunity.com/sharedfiles/filedetails/?id=2592535960
+Billed Deep Drill https://steamcommunity.com/sharedfiles/filedetails/?id=2593197871
+
+
+It would be great to receive feedback, suggestions or pointers on how to improve.Hope these mods help!
+
+Cheers!
+
+Version history
+[b]v0.1.1[/b]
+[list]
+[*]Fix letter name typo. Thanks [i]Attention Deficit Dave[/i] and [i]Large Moron[/i]!
+[/list]
+[b]v0.1[/b]
+[list]
+[*]Send a letter when someone's genes have finished regrowing.
+[*]Add options.
+[/list]</description>
+</ModMetaData>
