@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A9FA085D-E414-49F4-A256-E0E2F490A17A}</ProjectGuid>
+    <ProjectGuid>{B32B35A1-B5F5-45B7-AC5B-C8662FB05FA3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LetterGenesRegrowFinish</RootNamespace>
-    <AssemblyName>LetterGenesRegrowFinish</AssemblyName>
+    <RootNamespace>MoreBiotechLetters</RootNamespace>
+    <AssemblyName>MoreBiotechLetters</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -19,18 +19,22 @@
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>none</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Program Files %28x86%29\Steam\steamapps\common\RimWorld\Mods\MoreBiotechLetters\1.4\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -49,9 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HediffCompProperties_DisappearsWithLetter.cs" />
-    <Compile Include="LGRFMod.cs" />
-    <Compile Include="LGRFSetting.cs" />
+    <Compile Include="LGEData.cs" />
+    <Compile Include="LGEPatch.cs" />
+    <Compile Include="LGRFData.cs" />
+    <Compile Include="LGRFPatch.cs" />
+    <Compile Include="MBLPatcher.cs" />
+    <Compile Include="MBLMod.cs" />
+    <Compile Include="MBLSetting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
