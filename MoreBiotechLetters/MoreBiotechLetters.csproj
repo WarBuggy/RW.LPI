@@ -57,6 +57,8 @@
     <Compile Include="LGEPatch.cs" />
     <Compile Include="LGRFData.cs" />
     <Compile Include="LGRFPatch.cs" />
+    <Compile Include="LRAData.cs" />
+    <Compile Include="LRAPatch.cs" />
     <Compile Include="MBLPatcher.cs" />
     <Compile Include="MBLMod.cs" />
     <Compile Include="MBLSetting.cs" />

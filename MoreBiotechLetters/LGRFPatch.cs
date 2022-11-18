@@ -20,7 +20,6 @@ namespace MoreBiotechLetters
         {
             Pawn pawn = __state.Pawn;
             HediffDef def = __state.Def;
-            Log.Message($"LetterGenesRegrowFinished: Pawn: {pawn.LabelShort}, HediffDef. {def.defName}");
             if (!PawnUtility.ShouldSendNotificationAbout(pawn))
             {
                 return;
@@ -49,7 +48,7 @@ namespace MoreBiotechLetters
             }
             if (debug)
             {
-                Log.Message($"LetterGenesRegrowFinished: Pawn: {pawn.LabelShort}, HediffDef. {def.defName}");
+                Log.Message($"LetterGenesRegrowFinished: Pawn: {pawn.LabelShort}, HediffDef: {def.defName}.");
             }
             return;
         }

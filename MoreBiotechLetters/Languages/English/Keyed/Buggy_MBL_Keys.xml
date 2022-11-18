@@ -16,4 +16,10 @@
 	<LGE_Option>On genes extracted:</LGE_Option>
 	<LGE_Option_Letter>Send letter</LGE_Option_Letter>
 	<LGE_Option_Pause>Pause the game</LGE_Option_Pause>
+
+	<LRA_Letter_Label>Romanceable age reached</LRA_Letter_Label>
+	<LRA_Letter_Text>{0} can now romance others.</LRA_Letter_Text>
+	<LRA_Option>On reaching romanceable age:</LRA_Option>
+	<LRA_Option_Letter>Send letter</LRA_Option_Letter>
+	<LRA_Option_Pause>Pause the game</LRA_Option_Pause>
 </LanguageData>

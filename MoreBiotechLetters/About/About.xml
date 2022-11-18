@@ -21,6 +21,7 @@
 	<description>Add more letters to help better manage Biotech events. The new letters are:
 [list]
 [*]Send a letter when someone's genes have finished regrowing.
+[*]Send a letter when a colonist or prisoner reaches romanceable age (16 biological age, hard-coded for now).
 [*]Send a letter when someone's genes extracted by using the Gene Extractor. I don't know how to include the extracted genes info in the letter (using Harmony). Helps and pointers would be greatly appreciated!
 [/list]
 
@@ -44,9 +45,11 @@ Cheers!
 Version history
 [b]v0.2[/b]
 [list]
+[*]Change name from Letter Genes Regrow Finished to More Biotech Letters.
 [*]Use Harmony for better compatibility.
 [*]No option to turn off the original message (on the upper left corner of the screen).
 [*]Send letter when genes are extracted using the Gene Extractors.
+[*]Send letter when a colonist or prisoner reaches romanceable age.
 [/list]
 [b]v0.1.1[/b]
 [list]
